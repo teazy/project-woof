@@ -1,1 +1,57 @@
-hey
+/*
+0353A4 blue 
+8F2D56 purple
+D81159 pink
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #0353A4;
+	color: #D81159;
+}
+
+header, footer {
+	background-color: #8F2D56;
+}
+
+header {
+	margin-bottom: 25px;
+}
+
+header h1 {
+	display: inline-block;
+	color: #0353A4;
+	margin: 0px;
+	padding: 20px 42px;
+}
+
+footer span {
+	display: block;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	width: calc(100% - 40px);
+	font-size: 10pt;
+}
+
+h2, h3 {
+	color: #8F2D56;
+}
+
+div#main-cont {
+	margin: auto 20%;
+	margin-bottom: 5%;
+	overflow: hidden;
+}
+
+div#main-cont h1 {
+	text-align: center;
+}
+
+div#main-cont img {
+	display: inline-block;
+	width: 48%;
+	height: 350px;
+	margin-top: 0.5%;
+}
